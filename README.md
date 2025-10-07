@@ -2,12 +2,12 @@
 
 
 ## Names / Emails:
-Josh Navarro: joshpatnav@csu.fullerton.edu
-Monica Soliman: msoliman14@csu.fullerton.edu
-Isaac Morrell: isaacmorrell13@csu.fullerton.edu
-Spencer Blunt: sblunt3@csu.fullerton.edu
-Michelle: pinedama@csu.fullerton.edu
-Mathew Estrada: mestrada145@csu.fullerton.edu
+- Josh Navarro: joshpatnav@csu.fullerton.edu
+- Monica Soliman: msoliman14@csu.fullerton.edu
+- Isaac Morrell: isaacmorrell13@csu.fullerton.edu
+- Spencer Blunt: sblunt3@csu.fullerton.edu
+- Michelle: pinedama@csu.fullerton.edu
+- Mathew Estrada: mestrada145@csu.fullerton.edu
 
 ## Contribution
 
@@ -18,7 +18,9 @@ We all understand and are familiar with the functionality in the assignment
 C++
 
 ## How to Execute
-Use ./serial and ./parallel
+Use 
+g++ serial.cpp -o serial (compile)
+./serial(run program) / time ./serial(get times)
 
 ## Execution Times
 
