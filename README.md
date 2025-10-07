@@ -40,7 +40,7 @@ User time and system times will relatively be the same, it comes down to the lev
 3. When fetching all of the locations in the file, which fetcher finishes faster? Why do you think
 that is?
 
-Answer:
+Answer: When fetching all of the locations in the file, the Parallel Fetcher would fetch through all of the locations in the file faster. Overall the parallel fetcher executes the fastest. It takes the parallel fetcher 0.879s to run, while the serial fetcher takes 4.118s. In the end the run time of the parallel fetcher to go through the all the locations would be complete before the serial fetcher.
 
 4. Suppose one of the fetcher children crashes. Will this affect other children? Explain. What
 is your conclusion regarding the benefits or disadvantages of isolating each fetch task within
