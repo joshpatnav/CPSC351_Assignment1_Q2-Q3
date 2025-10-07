@@ -71,4 +71,4 @@ Answer:
 If one of our fetcher children processes were to crash, it would not affect our other children processes. Each child process runs independently of each other, so the state of one will not impact the others, only the parent process will be able to affect the children. The only way a child crashing could affect another, is if they shared any sort of memory or passed data from one another. This is a benefit to us as isolating each fetch to a process allows the rest of our children to continue executing as normal and lowers the chance of children processes potentially becoming orphaned or zombies.
 
 ![Our time and output for parallel](paralleloutput.png)
-![Our time and output for serial](/assets/images/tux.png)
+![Our time and output for serial](serialoutput.png)
