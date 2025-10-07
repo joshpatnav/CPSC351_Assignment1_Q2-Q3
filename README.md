@@ -6,7 +6,7 @@
 - Monica Soliman: msoliman14@csu.fullerton.edu
 - Isaac Morrell: isaacmorrell13@csu.fullerton.edu
 - Spencer Blunt: sblunt3@csu.fullerton.edu
-- Michelle: pinedama@csu.fullerton.edu
+- Michelle Pineda: pinedama@csu.fullerton.edu
 - Mathew Estrada: mestrada145@csu.fullerton.edu
 
 ## Contribution
