@@ -27,7 +27,10 @@ g++ serial.cpp -o serial (compile)
 ## Questions/Answers
 1. In the output of time, what is the difference between real, user, and sys times?
 
-Answer:
+Answer: 
+Real time: The total time it will take for the program to run from start to finish.
+User time: Is how long the CPU spends running the program’s own code.
+Sys time: The time the CPU spends doing work for the program inside the operating system, like handling files or input and output.
 
 2. Which is longer: user time or sys time? Use your knowledge to explain why.
 
