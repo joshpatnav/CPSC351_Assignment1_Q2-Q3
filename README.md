@@ -35,6 +35,7 @@ Sys time: The time the CPU spends doing work for the program inside the operatin
 2. Which is longer: user time or sys time? Use your knowledge to explain why.
 
 Answer:
+User time and system times will relatively be the same, it comes down to the level of privilege the instruction a process has. User mode will deal with all non-privileged instructions and the system will execute all privileged instructions. Ideally processes should be granted the minimum privileges needed for their tasks, meaning we hope to spend more time in user mode. This means our processes will have less of a chance to potentially damage the system. Our time ./serial output and time ./parallel reflect this. Our user time for serial is 0.259s greater than system, with our user time being 0.309s and system being 0.050s, and for parallel our user time is 0.242s greater than system with our user time being 0.299s and our system time at 0.057s.
 
 3. When fetching all of the locations in the file, which fetcher finishes faster? Why do you think
 that is?
