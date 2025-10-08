@@ -18,6 +18,12 @@ We all understand and are familiar with the functionality in the assignment
 C++
 
 ## How to Execute
+For shell use:
+*to compile*
+g++ shell.cpp -o shell
+*to run program*
+./shell
+
 For serial use: 
 *to compile*
 g++ serial.cpp -o serial
